@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background: url(pic/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.imgg{
+    width:50%;
+}
+
+.imgg img{
+    width:150px;
+    padding-left:50px;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+}
+.list ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.sri{
+    width: 50%;
+    height: 50%;
+    margin-left: 50px;
+}
+
+.sri h1{
+    font-size: 65px;
+    color: rgb(240, 85, 7);
+}
+
+.sri h3{
+    font-size: 23px;
+    text-align: justify;
+}
+button{
+    color: blue;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: white;
+    background-color: blue;
+    transition: 1.5s ease-in;
+}
+
+.image{
+    width: 50%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.image img{
+    position: absolute;
+    bottom: 0;
+    transition: left 3s ease;
+
+}
+.image img:hover{
+        left:55%;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    height: 100px;
+    width: 150px;
+    margin-top:325px;
+    position: absolute;
+
+}
+.icon a{
+    padding: 10px;
+    font-size:30px;
+    color: black;
+}
+.icon a:hover{
+    color: blue;
+    transition: 0.s;
+}

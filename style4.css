@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.skill{
+    color:rgb(240, 85, 7);
+    margin-left: 38%;
+    padding: 40px;
+    font-size: 30PX;
+}
+.skill1{
+    height: 280px;
+    width: 100%;
+}
+.skill1 .text h2{
+    margin-left: 39%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding: 30px;
+}
+.icon{
+    margin-left: 80px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.icon .icon1{
+    display: flex;
+    margin-left: 39%;
+    font-size: 25px;
+    padding: 10px;
+    color: blue;
+}
+.icon .icon2{
+    display: flex;
+    margin-left: 39%;
+    font-size: 25px;
+    padding: 10px;
+    color: blue;
+}
+.icon .icon3{
+    display: flex;
+    margin-left: 39%;
+    font-size: 25px;
+    padding: 10px;
+    color: blue;
+}
+.skill2 .text h2{
+    margin-left: 39%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding: 30px;
+}
+.iconn{
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+.iconn .icon1{
+    display: flex;
+    margin-left: 39%;
+    font-size: 20px;
+    padding: 10px;
+    color: blue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.iconn .icon2{
+    display: flex;
+    margin-left: 39%;
+    font-size: 20px;
+    padding: 10px;
+    color: blue;
+}
+.iconn .icon3{
+    display: flex;
+    margin-left: 39%;
+    font-size: 20px;
+    padding: 10px;
+    color: blue;
+}
+.skill3 .text h2{
+    margin-left: 39%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding: 30px;
+    height: 100px;
+}
+.boxhead{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 50px;
+    justify-content: space-around;
+}
+.box1{
+    width: 380px;
+    height: 280px;
+    box-shadow: rgba(8, 239, 255, 0.35) 0px 5px 15px;
+    transform: rotate(10deg);
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.box1:hover{
+    transform: rotate(0deg);
+    
+}
+.box2{
+    width: 380px;
+    height: 280px;
+    transform: rotate(10deg);
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    
+}
+.box2:hover{
+    transform: rotate(0deg);
+    
+}
+.box3{
+    width: 380px;
+    height: 280px;
+    box-shadow: rgba(8, 239, 255, 0.35) 0px 5px 15px;
+    transform: rotate(10deg);
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.box3:hover{
+    transform: rotate(0deg);
+    
+}
+.box4{
+    width: 380px;
+    height: 280px;
+    box-shadow: rgba(8, 239, 255, 0.35) 0px 5px 15px;
+    transform: rotate(10deg);
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.box4:hover{
+    transform: rotate(0deg);
+    
+}
+.box5{
+    width: 380px;
+    height: 280px;
+    box-shadow: rgba(8, 239, 255, 0.35) 0px 5px 15px;
+    transform: rotate(10deg);
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.box5:hover{
+    transform: rotate(0deg);
+    
+}

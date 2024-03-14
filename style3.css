@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    background-image: url(pic/bg.jpg);
+    background-position: center;
+    background-size: co;
+}
+.head{
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+.head h1{
+    font-size: 50px;
+    padding-left: 40%;
+    margin: 30px;
+    font-weight: 600;
+    color:rgb(240, 85, 7);
+}
+.container{
+    display: block;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.education{
+    display: absolute;
+    height: 260px;
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.education a{
+    margin-left: 600px;
+    border-radius: 10px;
+    border-color: black;
+}
+.education:hover{
+    color: rgb(3, 3, 3);
+    background-color: rgb(236, 167, 249);
+    transition: 1s;
+}
+.education h3{
+    display: inline-block;
+    font-size: 30px;
+    margin-left:7%;
+    justify-content: center;
+    color:rgb(240, 85, 7);
+}
+.education h4{
+    margin-left: 20%;
+    padding: 16px;
+    font-size: large;
+}
+.education2{
+    display: absolute;
+    height: 160px;
+    width: 60%;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.education2 h3{
+    color:rgb(240, 85, 7);
+}
+.education2 a{
+    margin-left: 600px;
+    
+    border-radius: 10px;
+    border-color: black;
+}
+.education2:hover{
+    color: rgb(3, 3, 3);
+    background-color: rgb(236, 167, 249);
+    transition: 1s;
+}
+.education2 h3{
+    display: inline-block;
+    font-size: 30px;
+    margin-left:7%;
+    justify-content: center;
+}
+.education2 h4{
+    margin-left: 20%;
+    padding: 16px;
+    font-size: large;
+}
+.education3{
+    display: absolute;
+    height: 160px;
+    width: 60%;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.education3 h3{
+    color:rgb(240, 85, 7);
+}
+.education3 a{
+    margin-left: 600px;
+    
+    border-radius: 10px;
+    border-color: black;
+}
+.education3:hover{
+    color: rgb(3, 3, 3);
+    background-color: rgb(236, 167, 249);
+    transition: 1s;
+}
+.education3 h3{
+    display: inline-block;
+    font-size: 30px;
+    margin-left:7%;
+    justify-content: center;
+}
+.education3 h4{
+    margin-left: 20%;
+    padding: 16px;
+    font-size: large;
+}
